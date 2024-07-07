@@ -1,0 +1,80 @@
+/*
+  Student Name: Jared Dwyer
+  File Name: styles.css
+  Date: 07/03/24
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #fba983;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style Rules for Header content */
+header {
+    position: sticky;
+    background-color: #9c3f42;
+    top: 0;
+    height: 200px;
+}
+
+header img {
+  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+
+.headshot {
+    width: 300px;
+    height: 40vh;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Style for nav area */
+nav {
+    padding: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+  font-size: 1.5em;
+  font-family: 'Francois One', sans-serif;
+  border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #782222;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    padding: 1em;
+    color: #782222;
+}
