@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
   Student Name: Jared Dwyer
-  File Name: Bio-site Project
+  File Name: index.html
   Date: 07/03/24
 -->
 <html lang="en">
@@ -11,38 +11,67 @@
   <meta name="viewport" content="width=device-width, initial scale=1">
   <title>Bio-site Project</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Voltaire&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Header contains profile image that links to home page -->
   <header>
-    <div>
-      <a href="index.html"><img src="images/headshot.jpg" class="headshot" alt="Selfie of Melissa Sanders"></a>
-    </div>
-  </header>
+    <img src="images/marbled.png" alt="Melissa's Business logo">
+  </header> 
 
  <!-- Nav bar will list the following links to move to within the site: Home, About, Hobbies, Contact -->
  <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="goals.html">Goals & Achievements</a></li>
-    <li><a href="hobbies.html">Hobbies</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li> 
+    <li><a href="Hobbies.html">Hobbies</a></li>
     </ul>
-  </nav>
+  </nav> 
 
+<!--Hero Image-->
+  <div id="hero" class="tablet-desktop">
+    <img src="images/hero.jpg" alt="Photo of a Sunset" id="hero">
+  </div>
+
+  <!-- Main Content -->
   
-  <main>
-    <div>
-      <h1>Welcome</h1>
-      <p>Welcome to my Website. My name is Melissa Sanders</p>
-      <p>I am a young and aspiring UX/UI designer.</p>
+  <div class="intro">
+    <h1>Hello!</h1>
+    <h2>I'm Melissa Sanders</h2>
+  </div>
+
+  <main class="wrapper">
+    
+    <div class="grid-item">
+      <div class="grid-item">
+          <img src="images/headshot.jpg" alt="Selfie of Melissa" class="headshot">
+      </div>
+
+      <div class="grid-item">
+        <div class="who">
+          <p>When I'm not immersed in design projects, I indulge in my various hobbies. I enjoy getting lost in a good book, bringing vibrant ideas to life through painting, crafting intricate crochet pieces, baking delicious treats, and engaging in crafting adventures.
+            <br><br>A large portion of my inspiration comes from my time spent in nature. I frequently walk and take trips to the beach with my fiancé, where I feel at peace. Inspiration for my work is spontaneous. I keep personal notes of the things I want to create when they come to me and often indulge in the beauty of nature. Most of my favorite works to make are acrylic pour paints. These paintings allow me to create abstract blends of colors that create beautiful designs.
+            <br><br>I believe that the blend of my skills in design and my diverse creative interests allows me to bring a unique perspective to every project I undertake. I'm excited to continue growing and evolving in the dynamic UX/UI Design field. Thank you for visiting my portfolio!</p>
+        </div>
+      </div> 
+    </div>
+    
+    <div class="grid-item">
+      <div class="grid-item">
+        <div class="more">
+          <p>I am a dedicated Graphic Design student passionate about UX/UI Design. I specialize in creating intuitive and aesthetically pleasing user experiences that make digital interactions seamless and enjoyable. My journey into the design world is fueled by a love for creativity and a keen eye for detail.
+            <br><br>Initially, I'm from the beautiful state of Wisconsin, where I spent much of my time outside. Now, I reside in sunny Orlando, Florida, with my wonderful fiancé and our two adorable cats.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+          <img src="images/headshot3.jpg" alt="Selfie of Melissa" class="headshot">
+        </div>
     </div>
 
-    <div>
-      <h1>About Me</h1>
-      <p></p>
-    </div>
   </main>
 
   <footer>
